@@ -22,5 +22,5 @@ Also you can search for movies by their genre. Possibility to find current ratin
 
 * Firebase authentication
 * UI: For UI I use both, programmatically, and storyboards.
-
+* TODO: Need to implement sign in with google account and facebook account
 
