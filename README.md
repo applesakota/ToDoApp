@@ -44,3 +44,23 @@ App uses core data for saving data localy
 | Category View Controller        | User can see list of all categories inside app |
 
 
+## Concepts used in main screens
+
+* Saved all user reminders in core data
+* Use notification observer if something change for reminder
+* Set programmatically home view controller, if user don't have reminders, One approuch, we also have another approuch with table view
+
+<p align="center">
+<img src="ToDoAppBody2.png">
+</p>
+
+### App Logic
+
+- User can add new reminder.
+- User can edit reminder.
+- User can delete reminder.
+- App have correct validation for adding new reminder
+- Use core data for saving reminders
+- Use Firebase Analythics 
+- Use Observers for communication
+
