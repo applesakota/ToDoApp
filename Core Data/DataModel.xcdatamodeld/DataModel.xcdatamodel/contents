@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15400" systemVersion="18G95" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CategoryItemData" representedClassName="CategoryItemData" syncable="YES" codeGenerationType="class">
+        <attribute name="color" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="item" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ToDoItemData" inverseName="category" inverseEntity="ToDoItemData"/>
+    </entity>
+    <entity name="ToDoItemData" representedClassName=".ToDoItemData" syncable="YES" codeGenerationType="class">
+        <attribute name="checked" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CategoryItemData" inverseName="item" inverseEntity="CategoryItemData"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="UserData" inverseName="toDoItems" inverseEntity="UserData"/>
+    </entity>
+    <entity name="UserData" representedClassName=".UserData" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="username" attributeType="String"/>
+        <relationship name="toDoItems" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ToDoItemData" inverseName="user" inverseEntity="ToDoItemData"/>
+    </entity>
+    <elements>
+        <element name="CategoryItemData" positionX="-80.46875" positionY="241.984375" width="128" height="103"/>
+        <element name="ToDoItemData" positionX="-85.81640625" positionY="22.765625" width="128" height="133"/>
+        <element name="UserData" positionX="-413" positionY="34.30859375" width="128" height="88"/>
+    </elements>
+</model>

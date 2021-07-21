@@ -1,0 +1,29 @@
+{
+    "categories":[
+        {
+            "id":0,
+            "name":"Personal",
+            "color":"#FFD506"
+        },
+        {
+            "id":1,
+            "name":"Work",
+            "color":"#5DE61A"
+        },
+        {
+            "id":2,
+            "name":"Study",
+            "color":"#D10263"
+        },
+        {
+            "id":3,
+            "name":"Meeting",
+            "color":"#3044F2"
+        },
+        {
+            "id":4,
+            "name":"Shopping",
+            "color":"#F29130"
+        }
+    ]
+}
