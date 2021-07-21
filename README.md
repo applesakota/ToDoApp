@@ -26,6 +26,7 @@ Also you can search for movies by their genre. Possibility to find current ratin
 * Firebase authentication
 * UI: For UI I use both, programmatically, and storyboards.
 * TODO: Need to implement sign in with google account and facebook account
+
 <br/>
 <br/>
 <p align="center">
@@ -33,6 +34,7 @@ Also you can search for movies by their genre. Possibility to find current ratin
 </p>
 <br/>
 <br/>
+
 ### App Flow
 
 App uses core data for saving data localy
@@ -62,6 +64,8 @@ App uses core data for saving data localy
 </p>
 <br/>
 <br/>
+
+
 ### App Logic
 
 - User can add new reminder.
