@@ -7,13 +7,14 @@ Create your reminders easily
 
 Free browse movies app for finding trending or upcoming movies.
 Also you can search for movies by their genre. Possibility to find current rating of movies, and to see more details about movie you find.
-<br />
-<br />
+<br/>
+<br/>
 <p align="center">
 <img src="ToDoAppHeader.png">
 </p>
-<br />
-<br />
+<br/>
+<br/>
+
 |      | Registration Screens     |
 |---                  |---   |
 | Splash Screen                   | Welcome to my app. Enjoy exploring |
