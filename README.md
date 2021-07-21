@@ -11,7 +11,8 @@ Also you can search for movies by their genre. Possibility to find current ratin
 <p align="center">
 <img src="ToDoAppHeader.png">
 </p>
-
+<br />
+<br />
 |      | Registration Screens     |
 |---                  |---   |
 | Splash Screen                   | Welcome to my app. Enjoy exploring |
@@ -27,7 +28,8 @@ Also you can search for movies by their genre. Possibility to find current ratin
 <p align="center">
 <img src="ToDoAppBody1.png">
 </p>
-
+<br />
+<br />
 ### App Flow
 
 App uses core data for saving data localy
@@ -53,7 +55,8 @@ App uses core data for saving data localy
 <p align="center">
 <img src="ToDoAppBody2.png">
 </p>
-
+<br />
+<br />
 ### App Logic
 
 - User can add new reminder.
