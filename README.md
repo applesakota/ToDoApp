@@ -26,13 +26,13 @@ Also you can search for movies by their genre. Possibility to find current ratin
 * Firebase authentication
 * UI: For UI I use both, programmatically, and storyboards.
 * TODO: Need to implement sign in with google account and facebook account
-<br />
-<br />
+<br/>
+<br/>
 <p align="center">
 <img src="ToDoAppBody1.png">
 </p>
-<br />
-<br />
+<br/>
+<br/>
 ### App Flow
 
 App uses core data for saving data localy
@@ -54,13 +54,14 @@ App uses core data for saving data localy
 * Saved all user reminders in core data
 * Use notification observer if something change for reminder
 * Set programmatically home view controller, if user don't have reminders, One approuch, we also have another approuch with table view
-<br />
-<br />
+
+<br/>
+<br/>
 <p align="center">
 <img src="ToDoAppBody2.png">
 </p>
-<br />
-<br />
+<br/>
+<br/>
 ### App Logic
 
 - User can add new reminder.
