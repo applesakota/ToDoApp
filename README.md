@@ -5,8 +5,8 @@ Create your reminders easily
 <br />
 ### About the app
 
-Free browse movies app for finding trending or upcoming movies.
-Also you can search for movies by their genre. Possibility to find current rating of movies, and to see more details about movie you find.
+Free reminder app for set and track all your reminders.
+You can add, delete, check if you completed reminder, and track all your reminders.
 <br/>
 <br/>
 <p align="center">
